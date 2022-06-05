@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barrier Studio</title>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="icons/site.webmanifest">
+  <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#603cba">
+  <link rel="shortcut icon" href="icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="msapplication-config" content="icons/browserconfig.xml">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Extra CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet"  href="css/home.css">
+  
+  <!-- Social Media Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- Fonts -->
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
+  
+  <!-- Extra JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="js/home.js"></script>
+  
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar w3-top w3-black">
+  <div class="container-fluid w3-padding">
+    <div class="navbar-header">
+    <div class="navbar-inverse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>  
+      </button>
+      </div>
+      <a class="navbar-brand w3-wide" href="home.html"><b>Barrier Studio</b></a>
+    </div>
+    <div class="collapse navbar-collapse w3-right" id="myNavbar">
+      <ul a href="" class="nav navbar-nav">
+	    <li><a href="about.html" class="w3-button custom">About</a></li>
+        <li><a href="#projects" class="w3-button custom">Projects</a></li>
+        <li><a href="#contact" class="w3-button custom">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- For pushing the video downwards below the navbar -->
+<br><br><br>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <video class="w3-image" width="1500" height="800" autoplay muted loop>
+    <source src="videos/showcase.mp4" type="video/mp4">
+  </video>
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-hide-small w3-text-light-grey">Welcome To</span></h1>
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Barrier Studio</b></span></h1>
+    
+    <!-- Narrow-no-break space in logo: " "-->
+    <!-- Figure space works too-->
+  </div>
+</header>
+
+<div class="mainPage">
+
+<!-- Page content -->
+<div class="w3-content w3-padding" id="about" style="max-width:1564px">
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32">
+  
+    <h3 class="w3-border-bottom w3-border-light-grey">Wyatt Barrier</h3>
+    <p class="w3-padding"> 
+        Hey, I'm a game developer/designer located in North Carolina. I graduated from UNCC in May of 2021, earning a Bachelor of Science in Computer Science.
+        </p>
+		
+        <p class="w3-padding"> 
+		I specialize in designing and creating games from the ground up. As of right now, I'm using Gamemaker Studio 2 for my current project, Eternal Soul. I also have experience with Unity and a variety of programming languages. 
+        </p>
+		
+         <p class="w3-padding"> 
+        Want more detailed info, career history, etc.?
+	</p>
+    <br>
+    <div class="w3-button w3-white w3-card w3-margin-left">
+       <a href="#contact" class="w3-button w3-block w3-text-black">
+          About me
+       </a>
+     </div>
+  </div>
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+  <br>
+    <h3 class="w3-border-bottom w3-border-light-grey"><b>Projects</b></h3>
+  </div>
+  
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="images/home_magnadyne.png" style="width:100%">
+      
+      <h3>Eternal Soul</h3>
+      <p class="w3-opacity">Gamemaker Studio 2</p>
+      <p>Explore the castle, converse with characters, battle against demons, find items, and steal the souls of your enemies to harness their power!</p>
+      <p><a href="eternalSoul.html"><button class="w3-button w3-light-grey w3-block">Learn more</button></a></p>
+    </div>
+    
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="images/home_chronologic.png" style="width:100%">
+      <h3>Chronologic</h3>
+      <p class="w3-opacity">Unity</p>
+      <p>Journey into a lost temple and discover an ancient time crystal. With the crystal in hand, use it to stop time and solve puzzles and progress.</p>
+      <p><a href="chronologic.html"><button class="w3-button w3-light-grey w3-block">Learn more</button></a></p>
+    </div>
+    
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="images/home_spycards.png" style="width:100%">
+      <h3>Spy Cards</h3>
+      <p class="w3-opacity">Tabletop Simulator</p>
+      <p>A faithful re-creation of the card-based minigame from Bug Fables. Build your deck and battle with friends online, or spectate.</p>
+      <p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2023827455"><button class="w3-button w3-light-grey w3-block">Steam Workshop</button></a></p>
+    </div>
+  </div>
+  
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey">Contact</h3>
+	<br>
+	<div class="w3-col w3-justify">
+        <p><i class="fa fa-fw fa-map-marker"></i> North Carolina</p>
+		<p><i class="fa fa-fw fa-globe"></i> Barrierstudio.com</p>
+        <p><i class="fa fa-fw fa-envelope"></i> Wyatt@barrierstudio.com</p>
+		<p> <a href="https://www.linkedin.com/in/wyatt-b-12185614a/"><i class="fa fa-linkedin w3-hover-opacity"></i> Wyatt Barrier</a></p>
+		<p> <a href="https://github.com/wbarrie2"><i class="fa fa-github w3-hover-opacity"></i> Wbarrie2</a></p>
+      </div>
+    <br>
+  </div>
+
+<!-- End page content -->
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+	<p id="footerMessage"></p>
+</footer>
+
+</body>
+</html>

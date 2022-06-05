@@ -1,0 +1,143 @@
+body 
+{
+	background: linear-gradient(to left, #000000 0%, #252525 10%, #252525 90%, #000000 100%);  
+	font-family: "Montserrat", sans-serif;
+	color: white;
+}
+
+.magnadyne
+{
+	font-family: AmaranthDeath;
+    font-size: 1.5em;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+
+p
+{
+	font-size: 1.25em;
+}
+
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 25%;
+  max-width: 100%;
+}
+
+h3
+{
+	font-family: AmaranthDeath;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	word-spacing: 10px;
+}
+
+h2
+{
+	font-family: "Ubuntu", sans-serif;
+    font-size: 1.5em;
+	margin-bottom: 30px;
+}
+
+.mainPage
+{
+	margin-right: 2vw;
+	margin-left: 2vw;
+}
+
+.custom
+{
+	color:white;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+}
+
+a:link 
+{ 
+	text-decoration: none; 
+}
+
+@font-face {
+	font-family: 'Title';
+	src: url('../fonts/title.ttf')  format('truetype');	/* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AmaranthDeath';
+	src: url('../fonts/amaranth.woff2') format('woff2'),	/* Super Modern Browsers */
+		 url('../fonts/amaranth.woff') format('woff'),		/* Pretty Modern Browsers */
+		 url('../fonts/amaranth.ttf')  format('truetype');	/* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+  .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
+  
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
