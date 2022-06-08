@@ -44,14 +44,14 @@ h3
 	font-size: 20px;
 }
 
-.container {
+.youtubeContainter {
   position: relative;
   overflow: hidden;
   max-width: 75%;
   padding-top: 43%;
 }
 
-.responsive-iframe {
+.youtubeIframe {
   position: absolute;
   top: 0;
   left: 0;
