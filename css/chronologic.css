@@ -49,6 +49,8 @@ h3
   overflow: hidden;
   max-width: 75%;
   padding-top: 43%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .youtubeIframe {
