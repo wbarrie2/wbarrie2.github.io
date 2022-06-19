@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barrier Studio</title>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="icons/site.webmanifest">
+  <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#603cba">
+  <link rel="shortcut icon" href="icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="msapplication-config" content="icons/browserconfig.xml">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Extra CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/spyCards.css">
+  <style>
+  .mainPage 
+	{
+		padding-left: 9vw;
+		padding-right: 9vw;
+	}
+   </style>
+  
+  <!-- Social Media Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- Fonts -->
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Secular+One'>
+  
+  <!-- Extra JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="js/home.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<!-- Navbar -->
+<nav class="navbar w3-top w3-black">
+  <div class="container-fluid w3-padding">
+    <div class="navbar-header">
+    <div class="navbar-inverse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>  
+      </button>
+      </div>
+      <a class="navbar-brand w3-wide" href="index.html"><b>Barrier Studio</b></a>
+    </div>
+    <div class="collapse navbar-collapse w3-right" id="myNavbar">
+      <ul a href="#" class="nav navbar-nav">
+	    <li><a href="about.html" class="w3-button custom">About</a></li>
+        <li><a href="index.html#projects" class="w3-button custom">Projects</a></li>
+        <li><a href="index.html#contact" class="w3-button custom">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- For pushing the video downwards below the navbar -->
+<br><br>
+
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <video class="w3-image" width="1500" height="800" playsinline autoplay muted loop>
+    <source src="videos/spyCards_showcase.mp4" type="video/mp4">
+  </video>
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-text-white">Scripted Spy Cards</h1>
+
+  </div>
+</header>
+
+<div class="container-fluid mainPage">
+  <div class="row">
+    <div class="col-sm-8">
+	  <h3 class="w3-border-bottom w3-border-light-grey">Play Spy Cards from Bug Fables!</h3>
+      <h2>Faithfully Recreated</h2>
+      <p>
+	  Scripted Spy Cards is a recreation of the minigame from Bug Fables, made playable 
+	  inside Tabletop Simulator. Create a deck of 15 cards (1 boss card, 2 mini-boss cards, 
+	  and 12 enemy cards). Mix and match cards or focus on a single tribe. There are many 
+	  ways to create your deck and win. Once you've built your deck, you can save it and 
+	  begin battling your friends online.
+	  </p>
+    </div>
+	<div class="col-sm-4">
+	  <br><br>
+      <img src="images/spyCards_cards.jpg" style="width:100%">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid mainPage">
+	<div class="row slideanim">
+	  <div class="col-sm-4">
+		<br>
+		<br>
+		<img src="images/spyCards_players.jpg" style="width:100%">
+	  </div>
+    <div class="col-sm-8">
+	
+	<h3 class="w3-border-bottom w3-border-light-grey">Battle Your Friends</h3>
+      <h2>Or spectate</h2>
+      <p>
+	  Once you create a room in Tabletop Simulator, you can invite up to eight 
+	  friends. Two battling and six spectating. The two battling one another 
+	  can't peek at the cards in the other's hand. They'll only show their face 
+	  once placed down. However, spectators can see both players' cards at all 
+	  times. Whether they're still being held or have been placed.
+	  </p>
+	  <br>
+	  <p>
+	  Once a competing player is ready, they press their corresponding button to 
+	  ready up. Once both players are ready, the cards will lock, and the round begins.
+	  </p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid mainPage">
+  <div class="row slideanim">
+    <div class="col-sm-8">
+	  <h3 class="w3-border-bottom w3-border-light-grey">Let The Round Begin</h3>
+      <h2>Sit back and watch</h2>
+      <p>
+	  Once the round begins, the game will automatically start moving the cards, 
+	  calculating attack and defense, applying effects, and more. Once the round 
+	  is over, the loser will lose one health point. Cards are then collected, 
+	  held, and redistributed throughout the match. So think twice before placing 
+	  that valuable boss card. The game's "Auto-Dealer" will be holding onto it 
+	  for a while before you get it back.
+	  </p>
+    </div>
+	<div class="col-sm-4">
+	  <br><br>
+      <img src="images/spyCards_layout.jpg" style="width:100%">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid mainPage text-center">
+  <div class="row  slideanim">
+	<h3 class="w3-border-bottom w3-border-light-grey">Play it yourself</h3>
+    <h2>Mod link and source code</h2>
+    <p>
+	Install the mod for Tabletop Simulator here
+	</p>
+	<p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2023827455">
+	  <button class="w3-button w3-light-grey">Steam Workshop</button>
+	</a></p>
+    <br>
+	<p>
+	View the source code here
+	</p>
+	<p><a href="https://github.com/wbarrie2/Spy-Cards-TTS">
+	  <button class="w3-button w3-light-grey">Github Repository</button>
+	</a></p>
+  </div>
+</div>
+
+<div class="container-fluid mainPage text-center">
+  <div class="row  slideanim">
+	<h3 class="w3-border-bottom w3-border-light-grey">Final Thoughts</h3>
+      <h2>Pseudo dev-log</h2>
+      <p>
+	  This project only happened because my friend thought it would be fun to play the 
+	  Spy Cards minigame from Bug Fables online with friends. In Bug Fables, the card game 
+	  would only be played with a few NPCs, hence being a minigame. I figured Tabletop Simulator 
+	  would be a great fit, so I set out to learn how to make mods in it. And how to program in Lua.
+	  </p>
+	  <br>
+	  <p>
+	  There were many strange roadblocks I had to overcome. For example, some cards will summon 
+	  (created from thin air) other cards to be played in the same round. This wasn't easy to incorporate, 
+	  but I eventually got it to work. Annoyingly I never found a way to actually summon a card from nothing. 
+	  Tabletop Simulator was very restrictive with what your Lua code could do. The one solution I found was 
+	  to have locked template cards copied when a card had to be summoned.
+	  </p>
+	  <br>
+	  <p>
+	  Overall, I enjoyed working on this and finally playing Spy Cards online with my friend. It turned out 
+	  well; logically, it was a one-to-one match with Bug Fables. Both versions played identically. This is 
+	  especially great since I didn't have access to the source code and had to figure out the logic through 
+	  trial and error. This card game may seem simple, but it can get very complicated.
+	  </p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+	<p id="footerMessage"></p>
+</footer>
+
+<script>
+$(document).ready(function() 
+{
+    $(window).scroll(function() 
+	{
+        $(".slideanim").each(function() 
+		{
+            var pos = $(this).offset().top;
+            var winTop = $(window).scrollTop();
+
+            if (pos < winTop + 600) 
+			{
+                $(this).addClass("slide");
+            }
+        });
+    });
+})
+</script>
+
+</body>
+</html>
